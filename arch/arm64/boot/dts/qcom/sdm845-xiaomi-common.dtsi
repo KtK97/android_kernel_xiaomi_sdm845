@@ -1,5 +1,8 @@
 /* Copyright (c) 2016-2018, The Linux Foundation. All rights reserved.
+<<<<<<< HEAD
  * Copyright (C) 2018 XiaoMi, Inc.
+=======
+>>>>>>> 8b2d4f8f992e... dts: Rewrite notification LED configuration
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -11,6 +14,7 @@
  * GNU General Public License for more details.
  */
 
+<<<<<<< HEAD
 #include "sdm845-xiaomi-sde-display.dtsi"
 
 /{
@@ -47,6 +51,8 @@
 	};
 };
 
+=======
+>>>>>>> 8b2d4f8f992e... dts: Rewrite notification LED configuration
 &red_led {
 	linux,name = "white";
 	qcom,start-idx = <1>;
