@@ -9,7 +9,7 @@ make O=out clean
 make O=out mrproper
 make O=out ARCH=arm64 noodle_beryllium_defconfig
 PATH="~/kernel/toolchain/custom-clang/bin:~/kernel/toolchain/gcc9/bin:${PATH}"
-make -j$(nproc --all) O=out ARCH=arm64 CC=clang CLANG_TRIPLE=aarch64-linux-gnu- CROSS_COMPILE=aarch64-linux-gnu-
+make -j$(nproc --all) O=out ARCH=arm64 CC=clang CLANG_TRIPLE=aarch64-linux-gnu- CROSS_COMPILE=aarch64-linux-gnu- CROSS_COMPILE_ARM32=arm-linux-androideabi-
 mv out/arch/arm64/boot/Image.gz-dtb ~/kernel/anykernel2/Image.gz-dtb
 rm -rf out
 cd ~/kernel/anykernel2
