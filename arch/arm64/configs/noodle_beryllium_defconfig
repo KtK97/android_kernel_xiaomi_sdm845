@@ -646,3 +646,7 @@ CONFIG_WIREGUARD=y
 # Boeffla Wakelocks
 #
 CONFIG_BOEFFLA_WL_BLOCKER=y
+#
+# Force Fast Charge
+#
+CONFIG_FORCE_FAST_CHARGE=y
